@@ -1,0 +1,1 @@
+# include <bits/stdc++.h>using namespace std;int change;string str;int main() {    cin >> change >> str;    for (int i = 0; i < str.size(); i++) {        str[i] += change - 'a';        str[i] %= 26;        putchar(str[i] + 'a');    }}
