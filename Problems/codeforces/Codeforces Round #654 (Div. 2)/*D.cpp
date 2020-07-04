@@ -9,7 +9,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int mp[303][303];
 
 int main() {
     // insert code here...
@@ -17,6 +16,7 @@ int main() {
     freopen("/Users/Shared/AACM/File", "r", stdin);
 #endif
     int t, n, k;
+    int mp[303][303];
     cin >> t;
     while (t--) {
         cin >> n >> k;
